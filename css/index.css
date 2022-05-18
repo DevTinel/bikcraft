@@ -1,189 +1,20 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-  padding-bottom: 600px;
-}
-ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-h1,
-ul,
-p {
-  margin: 0;
-}
-a {
-  color: inherit;
-  text-decoration: none;
-}
-img {
-  max-width: 100%;
-  display: block;
-}
 
-.header-bg {
-  background-color: #000;
-}
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  box-sizing: border-box;
-  max-width: 1200px;
-  flex-wrap: wrap;
-  gap: 20px;
-  margin: 0 auto;
-}
-.header-menu {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-}
-.header-menu a {
-  position: relative;
-  padding: 16px 0px;
-  display: inline-block;
-  color: #fff;
-  font-size: 1.2rem;
-  font-family: 'Poppins';
-  font-weight: 400;
-}
-.header-menu a::after {
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0;
-  background-color: #fff;
-  margin-top: 4px;
-  position: absolute;
-  transition: 0.3s;
-}
-.header-menu a:hover::after {
-  width: 100%;
-}
-@media (max-width: 800px) {
-  .header-menu a:hover {
-    background-color: #2e2e2e;
-  }
-  .header-menu a {
-    background-color: #111;
-    padding: 12px 16px;
-    border-radius: 4px; 
-  }
-  .header-menu {
-    gap: 20px;
-  }
-  .header a::after {
-    display: none;
-  }
-}
-@media (max-width: 600px) {
-  .header-menu {
-    gap: 12px;
-  }
-  .header-menu a {
-    padding: 8px 12px;
-    font-size: 14px;
-  }
-}
+/* resets globais */
+@import './global/global.css';
 
-.introducao-bg {
-  background-color: #000;
-  color: #fff;
-  box-shadow: inset 0px -120px white;
-}
-.introducao {
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
-  margin: 0 auto;
-  max-width: 1200px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
-}
-.introducao-conteudo {
-  align-self: end;
-  padding-bottom: 200px;
-}
-.introducao img {
-  height: 100%;
-  object-fit: cover;
-  border-radius: 4px;
-}
+@import './ultilitarios/tipografia.css';
 
-.introducao h1 {
-  margin-bottom: 32px;
-  font-size: 64px;
-  line-height: 1.125;
-  font-family: 'Poppins';
-  font-weight: 600;
-}
-.introducao p {
-  margin-bottom: 20px;
-  font-size: 24px;
-  line-height: 1.5;
-  color: #b2b2b2;
-  font-family: 'Roboto';
-  font-weight: 400;
-}
-.introducao h1 span {
-  color: #ffbb00;
-}
-.introducao a {
-  display: inline-block;
-  background: linear-gradient(#ffbb00, #f2a50c);
-  border-radius: 4px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  text-transform: uppercase;
-  color: #332200;
-  font: 18px;
-  line-height: 1.33;
-  font-weight: bold;
-  padding: 16px 32px;
-  font-family: 'Poppins';
-  font-weight: 600;
-}
-.introducao a:hover {
-  background: linear-gradient(#ffb60d, #e59317);
-}
+/* css header */
+@import './home/header.css';
 
-@media (max-width: 1200px) {
-  .introducao h1 {
-    font-size: 48px;
-  }
-  .introducao p {
-    font-size: 18px;
-  }
-}
-@media (max-width: 800px) {
-  .introducao {
-    grid-template-columns: 1fr;
-    gap: 32px;
-  }
-  .introducao-bg {
-    background-color: #111;
-    padding-top: 40px;
-    box-shadow: inset 0 -60px #fff;
-  }
-  .introducao img {
-    height: 300px;
-    width: 100%;
-  }
-  .introducao-conteudo {
-    padding-bottom: 0px;
-  }
-  .introducao h1 {
-    font-size: 32px;
-    margin-bottom: 16px;
-  }
-}
+/* css introdução */
+@import './home/introducao.css';
 
-@media (max-width: 600px) {
-  .introducao a {
-    padding: 12px 16px;
-    font-size: 16px;
-  }
-}
+/* css componentes */
+@import './ultilitarios/componentes.css';
+
+@import './ultilitarios/cores.css';
+
+@import './bicicletas/bicibletas-lista.css';
+
+@import './home/tecnologia.css';

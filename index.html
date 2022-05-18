@@ -19,10 +19,10 @@
   </head>
   <body>
     <header class="header-bg">
-      <div class="header">
+      <div class="header container">
         <a href=".index.html"><img src="img/bikcraft.svg" alt="Bikcraft" /></a>
         <nav aria-label="primaria">
-          <ul class="header-menu">
+          <ul class="header-menu font-1-m cor-0">
             <li><a href="./bicicletas.html">Bicicletas</a></li>
             <li><a href="./seguros.html">Seguros</a></li>
             <li><a href="./contato.html">Contato</a></li>
@@ -32,14 +32,16 @@
     </header>
 
     <main class="introducao-bg">
-      <div class="introducao">
+      <div class="introducao container">
         <div class="introducao-conteudo">
-          <h1>Bicicletas feitas sob medida<span>.</span></h1>
-          <p>
+          <h1 class="font-1-xxl cor-0">
+            Bicicletas feitas sob medida<span class="cor-p1">.</span>
+          </h1>
+          <p class="font-2-m cor-5">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para você. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <a href="./bicicletas.html">Escolha a sua</a>
+          <a class="botao" href="./bicicletas.html">Escolha a sua</a>
         </div>
         <div>
           <img
@@ -49,5 +51,81 @@
         </div>
       </div>
     </main>
+
+    <article class="bicicletas-lista">
+      <h2 class="font-1-xxl container">
+        escolha a sua <span class="cor-p1">.</span>
+      </h2>
+      <div class="bicicletas-lista-items">
+        <ul>
+          <a href="./bicicletas/magic.html">
+            <li>
+              <img src="/img/bicicletas/magic-home.jpg" alt="bike preta" />
+            </li>
+            <h3 class="font-1-xl">Magic Might</h3>
+            <span class="font-2-m cor-8">R$: 2499</span>
+          </a>
+        </ul>
+        <ul>
+          <a href="./bicicletas/nimbus.html">
+            <li>
+              <img src="/img/bicicletas/nimbus-home.jpg " alt="bike preta" />
+            </li>
+            <h3 class="font-1-xl">Nimbus Stark</h3>
+            <span class="font-2-m cor-8">R$: 4999</span>
+          </a>
+        </ul>
+        <ul>
+          <a href="./bicicletas/nebula.html">
+            <li>
+              <img src="/img/bicicletas/nebula-home.jpg" alt="bike preta" />
+            </li>
+            <h3 class="font-1-xl">Nebula Cosmic</h3>
+            <span class="font-2-m cor-8">R$: 3999</span>
+          </a>
+        </ul>
+      </div>
+    </article>
+
+    <article class="tecnologia-bg">
+      <div class="tecnologia container">
+        <div class="tecnologia-conteudo">
+          <span class="font-2-l-b cor-5">TECNOLOGIA AVANÇADA</span>
+          <h2 class="font-1-xxl cor-0">
+            você escolhe as suas cores e componentes
+            <span class="cor-p1">.</span>
+          </h2>
+          <p class="font-2-m cor-5">
+            Cada Bikcraft é única e possui a sua identidade. As medidas serão
+            exatas para o seu corpo e altura, garantindo maior conforto e
+            ergonomia na sua pedalada. Você pode também personalizar
+            completamente as suas cores.
+          </p>
+          <a class="link" href="./biciletas.html">ESCOLHA UM MODELO</a>
+          <div class="tecnologia-vantagens">
+            <div>
+              <img src="./img/icones/eletrica.svg" alt="" />
+              <h3 class="font-1-m cor-0">Motor Elétrico</h3>
+              <p class="font-2-s cor-5">
+                Toda Bikcraft é equipada com um motor elétrico que possui
+                duração de até 120h. A bateria é recarregada com a sua energia
+                gasta ao pedalar.
+              </p>
+            </div>
+            <div>
+              <img src="./img/icones/rastreador.svg" alt="" />
+              <h3 class="font-1-m cor-0">Motor rastreador</h3>
+              <p class="font-2-s cor-5">
+                Sabemos o quão preciosa é a sua Bikcraft, por isso adicionamos
+                rastreadores e sistemas anti-furto para garantir o seu sossego.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="tecnologia-imagem">
+          <img src="./img/fotos/tecnologia.jpg" alt="" />
+        </div>
+      </div>
+    </article>
   </body>
 </html>
