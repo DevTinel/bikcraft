@@ -16,8 +16,15 @@
     text-transform: uppercase;
     color: var(--cor-p5);
     font:600 1rem/1.5 "Roboto",sans-serif;
-
+    max-width: max-content;
     padding: 16px 32px; 
+  }
+  .botao.secundario{
+    background: var(--cor-10);
+    color: var(--cor-2);
+  }
+  .botao.secundario:hover{
+    background: var(--cor-9);
   }
   .botao:hover {
     background: linear-gradient(#ffb60d, #e59317);

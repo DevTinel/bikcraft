@@ -1,6 +1,6 @@
 .introducao-bg {
-  background-color: var(--cor-11);
-    box-shadow: inset 0px -120px var(--cor-0);
+  background-color: var(--cor-12);
+  box-shadow: inset 0px -120px var(--cor-0);
 }
 .introducao {
   display: grid;
