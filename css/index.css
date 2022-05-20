@@ -5,7 +5,7 @@
 @import './ultilitarios/tipografia.css';
 
 /* css header */
-@import './home/header.css';
+@import 'global/header.css';
 
 /* css introdução */
 @import './home/introducao.css';
@@ -24,3 +24,5 @@
 @import './home/depoimento.css';
 
 @import './seguros/seguros.css';
+
+@import './global/footer.css'
