@@ -32,4 +32,6 @@
 
 @import "seguros/vantagens.css";
 
-@import "seguros/perguntas.css"
+@import "seguros/perguntas.css";
+
+@import "../css/bicicleta/bicicleta.css"
