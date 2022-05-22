@@ -18,6 +18,8 @@
     font:600 1rem/1.5 "Roboto",sans-serif;
     max-width: max-content;
     padding: 16px 32px; 
+    border: none;
+    cursor: pointer ;
   }
   .botao.secundario{
     background: var(--cor-10);
@@ -90,5 +92,14 @@
     font-size: 1rem;
     text-transform: lowercase;
     font-weight: 400;
+  }
+}
+
+@media(max-width:600px){
+  .form{
+    grid-template-columns: 1fr;
+  }
+  .form .col-2{
+    grid-column: 1;
   }
 }
