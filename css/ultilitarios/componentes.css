@@ -29,10 +29,11 @@
     background: var(--cor-9);
   }
   .botao.seta{
-    display: flexa;
+    display: flex;
     align-items: center;
   }
   .botao.seta:hover::after{
+    
     transform: translateX(4px);
     transition: 0.2s;
 
