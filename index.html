@@ -12,6 +12,7 @@
       <link rel="stylesheet" href="./css/index.css" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link rel="stylesheet" href="plugins/simple-anime.css">
       <link
         href="https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Fira+Sans:wght@400;700&family=Poppins:wght@400;600&family=Roboto:wght@400;500&family=Sansita+Swashed:wght@500&family=Work+Sans:wght@100&display=swap"
         rel="stylesheet"
@@ -40,17 +41,17 @@
     <main class="introducao-bg">
       <div class="introducao container">
         <div class="introducao-conteudo">
-          <h1 class="font-1-xxl cor-0">
+          <h1  data-anime="500" class="font-1-xxl fadeInDown cor-0">
             Bicicletas feitas sob medida<span class="cor-p1">.</span>
           </h1>
-          <p class="font-2-m cor-5">
+          <p data-anime="800"  class=" fadeInDown font-2-m cor-5">
             Bicicletas elétricas de alta precisão e qualidade, feitas sob medida
             para você. Explore o mundo na sua velocidade com a Bikcraft.
           </p>
-          <a class="botao" href="./bicicletas.html">Escolha a sua</a>
+          <a data-anime="1000" class="botao fadeInDown" href="./bicicletas.html">Escolha a sua</a>
         </div>
-        <div>
-          <img
+        <div >
+          <img data-anime="1000"
             src="./img/fotos/introducao.jpg"
             alt="bicicleta elátrica preta"
           />
@@ -251,7 +252,7 @@
       </div>    
     </footer>
 
+    <script src="plugins/simple-anime.js"></script>
     <script src="js/script.js"></script>
-
   </body>
 </html>
